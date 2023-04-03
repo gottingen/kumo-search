@@ -9,9 +9,10 @@
 落脚于代码实现。
 
 欢迎技术交流
-@author Jeff.li 
-@email lijippy@163.com
-@微信: jeffli1024
+* @author Jeff.li
+* @email lijippy@163.com
+* @微信: jeffli1024
+
 # 目录
 
 * [1 搜索的意义](ch-01/README.md)
