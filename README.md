@@ -13,7 +13,7 @@ turbo architecture
 * @email lijippy@163.com
 * @微信: jeffli1024
 
-# 相关项目
+# reference project
 ## [turbo](https://github.com/gottingen/turbo.git) 
 c++ foundation library.
 
