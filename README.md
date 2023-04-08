@@ -1,7 +1,7 @@
-未来搜索系统
+turbo architecture
 ====
 
-# 概述
+# what it is?
 
 2023年，chatgpt的发布，整个AI领域带来一场大模型的革命，在互联网工作也有些年
 头，搜索领域也会受益于大模型带来的变化。本项目的目的是跟大家一起探讨一下过去搜索
@@ -12,6 +12,21 @@
 * @author Jeff.li
 * @email lijippy@163.com
 * @微信: jeffli1024
+
+# 相关项目
+## [turbo](https://github.com/gottingen/turbo.git) 
+c++ foundation library.
+
+## [libtext](https://github.com/gottingen/libtext.git) 
+chinese segment and normalize library.
+## [lambda](https://github.com/gottingen/lambda.git) 
+host local search engine for mix term and vector search.
+## [rigel](https://github.com/gottingen/rigel.git) 
+ai and rpc runtime library, to manage memory and fiber or thread schedule.
+## [hercules](https://github.com/gottingen/hercules.git) 
+python Aot framework for integrated components interface rpc and ai backend like tesorflow or pytorch
+## [hvm](https://github.com/gottingen/hvm.git) (not start now)
+framework gateway, let us write python and generate c++ code and run in llvm.
 
 # 目录
 
