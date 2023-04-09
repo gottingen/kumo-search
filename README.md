@@ -37,10 +37,11 @@ python Aot framework for integrated components interface rpc and ai backend like
 ## [hvm](https://github.com/gottingen/hvm.git) (not start now)
 framework gateway, let us write python and generate c++ code and run in llvm.
 
-# 目录
-
-* [1 搜索的意义](ch-01/README.md)
-  * [1.1 搜索解决什么问题](ch-01/search_solv.md)
+# Table of contents
+* [develop environment prepare](ch-00/README.md)
+  * 
+* [Significance of search system](ch-01/README.md)
+  * [What problem does search solve](ch-01/search_solv.md)
   * [1.2 搜索的发展历史](ch-01/search_develop.md)
 * [2 搜索架构](ch-02/README.md)
   * [2.1 整体架构](ch-02/arch_total.md)
