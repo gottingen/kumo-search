@@ -39,7 +39,8 @@ framework gateway, let us write python and generate c++ code and run in llvm.
 
 # Table of contents
 * [develop environment prepare](ch-00/README.md)
-  * 
+  * [conda guide](ch-00/conda_guide.md)
+  * [cmake guide](ch-00/cmake_guide.md)
 * [Significance of search system](ch-01/README.md)
   * [What problem does search solve](ch-01/search_solv.md)
   * [1.2 搜索的发展历史](ch-01/search_develop.md)
