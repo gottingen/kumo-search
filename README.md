@@ -20,7 +20,7 @@ design and function of the system.
 ## Technical discussions
 * @author Jeff.li
 * @email lijippy@163.com
-* @微信: jeffli1024
+* @weichat: jeffli1024
 
 # reference project
 ```mermaid
