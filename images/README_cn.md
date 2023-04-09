@@ -1,23 +1,15 @@
 search legend
 ====
 
-[中文版](README_cn.md)|[Release Notes](NEWS.md)|[Contributors](contributors.md)
-
-
+[中文版]()
 # what it is?
 
-In 2023 or the second half of 2022, after
-several years of dormancy, the big model finally 
-showed his powerful ability to the world in the 
-form of chatgpt. This project is the entry project of 
-the Gottingen organization, which aims to introduce how 
-to implement a search system and provide a suitable way
-to access the components of the large model. The project
-takes engineering realization and actual landing projects 
-as the main line, and gradually explains the principle, 
-design and function of the system.
+2023年，chatgpt的发布，整个AI领域带来一场大模型的革命，在互联网工作也有些年
+头，搜索领域也会受益于大模型带来的变化。本项目的目的是跟大家一起探讨一下过去搜索
+领域的做法和未来的发展，迎接大模型时代。从业务的视角出发，
+落脚于代码实现。
 
-## Technical discussions
+欢迎技术交流
 * @author Jeff.li
 * @email lijippy@163.com
 * @微信: jeffli1024

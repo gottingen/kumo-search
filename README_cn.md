@@ -1,23 +1,15 @@
-search legend
+搜索的传说
 ====
 
-[中文版](README_cn.md)|[Release Notes](NEWS.md)|[Contributors](contributors.md)
+# 它是什么?
 
+2023年或者说是2022年后半段，大模型经历了几年的蛰伏，
+终于以 chatgpt的形式向世人展示了他的强大能力。这个项目的
+是gottingen组织的入口项目，旨在介绍如果实现一套搜索的系统，
+并提供合适的途径接入大模型的组件。项目以工程实现和实际落地项目
+作为主线，逐步解释系统的原理、设计以及功能。
 
-# what it is?
-
-In 2023 or the second half of 2022, after
-several years of dormancy, the big model finally 
-showed his powerful ability to the world in the 
-form of chatgpt. This project is the entry project of 
-the Gottingen organization, which aims to introduce how 
-to implement a search system and provide a suitable way
-to access the components of the large model. The project
-takes engineering realization and actual landing projects 
-as the main line, and gradually explains the principle, 
-design and function of the system.
-
-## Technical discussions
+## 欢迎技术交流
 * @author Jeff.li
 * @email lijippy@163.com
 * @微信: jeffli1024
