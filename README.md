@@ -23,6 +23,20 @@ design and function of the system.
 * @微信: jeffli1024
 
 # reference project
+```mermaid
+flowchart TB
+    A[turbo]-->B[libtext]
+    A[turbo]-->C[lambda]
+    A[turbo]-->D[hercules]
+    A[turbo]-->E[rigel]
+    E[rigel]-->D[hercules]
+    D[hercules]-->F[hvm]
+    C[lambda]-->F[hvm]
+    B[libtext]-->F[hvm]
+    E[rigel]-->G[melon-rpc]
+    G[melon-rpc]-->F[hvm]
+    
+```
 ## [turbo](https://github.com/gottingen/turbo.git) 
 c++ foundation library.
 
