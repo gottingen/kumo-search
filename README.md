@@ -51,6 +51,41 @@ python Aot framework for integrated components interface rpc and ai backend like
 * [hvm](https://github.com/gottingen/hvm.git) (not start now)
 framework gateway, let us write python and generate c++ code and run in llvm.
 
+# the goals
+
+inspire by the ai aot. design it write a few python code like below
+
+```python
+import hvm
+
+q:str='刘德华'
+def do_search(q:tr)->List[Any]
+  qp = hvm.QU.parse(q)
+  qt = hvm.query.boolen_query()
+  sq = hvm.query.term_query(qp)
+  sq.must('title')
+  qt.add_sub_query(sq)
+  searcher  = hvm.search()
+  searcher.set_relavece('bm25')
+  searcher.set_ranker('dw_fm')
+  searcher.set_l1_sort('default')
+  searcher.set_l2_sort('ctr_pri_sorter')
+  result = searcher.search(engine)
+  return result
+hvm.compile(do_search, "./search_demo")
+```
+at c++ side,
+```c++
+hvm::Session session;
+bool rs = session.load("./search_demo")
+if(!rs){
+    return false;
+}      
+string query;
+session.run(query);
+```
+
+
 # Table of contents
 * [develop environment prepare](ch-00/README.md)
   * [conda guide](ch-00/conda_guide.md)
