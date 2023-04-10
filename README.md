@@ -65,6 +65,11 @@ flowchart LR
 
 it will reduce c++ communication and development phrase during  business development。
 may reduce business development days a lot and provide bug free code.
+
+how ever, in some Modularity is not good system, you need to 
+do a lot work int `test and online`, it is a very frustrating thing that， if
+many people develop together, so fuzz..
+
 ```mermaid
 flowchart LR
   A[python algorithm]-->B[c++ review]-->C[c++ develop]-->D[test and online]
