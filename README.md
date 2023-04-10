@@ -113,23 +113,25 @@ via c++ and hidden complex service governance logic behind.
 * [develop environment prepare](ch-00/README.md)
   * [conda guide](ch-00/conda_guide.md)
   * [cmake guide](ch-00/cmake_guide.md)
-* [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
-  * [11.1 多阶段打分]()
-  * [11.2 向量引擎]()
-  * [11.3 term引擎]()
-  * [11.4 融合索引]()
-  * [11.5 query语法]()
-  * [11.6 引擎同步]()
-  * [11.7 实时引擎]()
-  * [11.8 存储引擎]()
-  * [11.9 拉链归并]()
 * [Significance of search system](ch-01/README.md)
   * [What problem does search solve](ch-01/search_solv.md)
   * [1.2 搜索的发展历史](ch-01/search_develop.md)
+
 * [2 搜索架构](ch-02/README.md)
   * [2.1 整体架构](ch-02/arch_total.md)
   * [2.2 搜索的引流](ch-02/stream.md)
   * [2.2 搜索的评估](ch-02/evolate.md)
+  * 
+* [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
+  * [table struct](ch-11/table_struct.md)
+  * [11.2 向量引擎]
+  * [11.3 term引擎]
+  * [11.4 融合索引]
+  * [11.5 query语法]
+  * [11.6 引擎同步]
+  * [11.7 实时引擎]
+  * [11.8 存储引擎]
+  * [11.9 拉链归并]
 * [3 query理解](ch-03/README.md)
   * [3.1 分词](ch-03/segment.md)
   * [3.2 纠错](ch-03/currect.md)
