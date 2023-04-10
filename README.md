@@ -53,6 +53,23 @@ framework gateway, let us write python and generate c++ code and run in llvm.
 
 # the goals
 
+```mermaid
+flowchart LR
+    A[python code]-->B[hvm.compile]
+    B-->C[so library and graph]
+    G[ci/cd]-->C[so library and graph]
+    D[c++ runtime]-.->G
+    D[c++ runtime]-->E[c++ app]
+    F[service mess]-->E[c++ app]
+```
+
+it will reduce c++ communication and development phrase during  business development。
+may reduce business development days a lot and provide bug free code.
+```mermaid
+flowchart LR
+  A[python algorithm]-->B[c++ review]-->C[c++ develop]-->D[test and online]
+  AA[python algorithm]-->E[generate c++]-->D[test and online]
+```
 inspire by the ai aot. design it write a few python code like below
 
 ```python
@@ -179,7 +196,7 @@ via c++ and hidden complex service governance logic behind.
   * [16.1 数据并行]()
   * [16.2 模型并行]()
   * [16.3 参数服务器]()
-  * [16.4 horvod]()
+  * [16.4 horovod]()
   * [16.5 分布式并行-mpi]()
     * [16.5.1 gloo]()
     * [16.5.2 openmpi]()
