@@ -109,6 +109,8 @@ session.run(query);
 so it can do things in c++ code,Enjoy the joy brought by c++. and hidden the difficult code 
 via c++ and hidden complex service governance logic behind.
 
+# nlp roadmap
+![](images/algo_arch.jpg)
 # Table of contents
 * [develop environment prepare](ch-00/README.md)
   * [conda guide](ch-00/conda_guide.md)
