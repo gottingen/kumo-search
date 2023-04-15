@@ -110,7 +110,7 @@ so it can do things in c++ code,Enjoy the joy brought by c++. and hidden the dif
 via c++ and hidden complex service governance logic behind.
 
 # nlp roadmap
-![](images/algo-arch.jpg)
+![](images/algo-arch.png)
 # Table of contents
 * [develop environment prepare](ch-00/README.md)
   * [conda guide](ch-00/conda_guide.md)
