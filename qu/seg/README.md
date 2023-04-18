@@ -24,3 +24,9 @@ D-->I[HMM]
 D-->J[CRF]
 D-->K[Deep Learning End-to-End]
 ```
+
+# tools
+
+## [libtext](https://github.com/gottingen/libtext)
+
+this repo using jieba c++ as a baseline.
