@@ -134,14 +134,14 @@ via c++ and hidden complex service governance logic behind.
   * [11.7 实时引擎]
   * [11.8 存储引擎]
   * [11.9 拉链归并]
-* [3 query理解](ch-03/README.md)
-  * [3.1 分词](ch-03/segment.md)
-  * [3.2 纠错](ch-03/currect.md)
-  * [3.3 改写](ch-03/rewrite.md)
-  * [3.4 实体识别](ch-03/ner.md)
-  * [3.5 意图](ch-03/intend.md)
-  * [3.6 默认词](ch-03/default.md)
-  * [3.7 提示词](ch-03/sug.md)
+* [3 query理解](qu/README.md)
+  * [3.1 分词](qu/seg/README.md)
+  * [3.2 纠错]
+  * [3.3 改写]
+  * [3.4 实体识别]
+  * [3.5 意图]
+  * [3.6 默认词]
+  * [3.7 提示词]
 * [4. 召回](ch-04/README.md)
   * [4.1 倒排]()
   * [4.2 正排]()
