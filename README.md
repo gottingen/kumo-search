@@ -124,7 +124,7 @@ via c++ and hidden complex service governance logic behind.
   * [2.2 搜索的引流](ch-02/stream.md)
   * [2.2 搜索的评估](ch-02/evolate.md)
 * [Fundamentals of Deep Learning](dl/README.md)
-  * [linear_regression.ipynb](dl/linear/index.ipynb)
+  * [linear_regression](dl/linear/index.ipynb)
 
 * [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
   * [table struct](ch-11/table_struct.md)
