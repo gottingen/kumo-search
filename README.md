@@ -123,7 +123,9 @@ via c++ and hidden complex service governance logic behind.
   * [2.1 整体架构](ch-02/arch_total.md)
   * [2.2 搜索的引流](ch-02/stream.md)
   * [2.2 搜索的评估](ch-02/evolate.md)
-  * 
+* [Fundamentals of Deep Learning](dl/README.md)
+  *[liner]()
+
 * [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
   * [table struct](ch-11/table_struct.md)
   * [11.2 向量引擎]

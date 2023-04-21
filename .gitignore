@@ -16,3 +16,4 @@ _book
 *.pdf
 .vscode
 .idea
+.ipynb_checkpoints
