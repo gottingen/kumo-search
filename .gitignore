@@ -17,3 +17,4 @@ _book
 .vscode
 .idea
 .ipynb_checkpoints
+dl/data
