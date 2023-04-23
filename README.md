@@ -112,9 +112,10 @@ via c++ and hidden complex service governance logic behind.
 # nlp roadmap
 ![](images/algo-arch.png)
 # Table of contents
-* [develop environment prepare](ch-00/README.md)
+* [开发准备准备](ch-00/README.md)
   * [conda guide](ch-00/conda_guide.md)
-  * [cmake guide](ch-00/cmake_guide.md)
+  * [cmake guide](ch-00/cmake_guide.md) 待完成
+  * [bazel guide](ch-00/bazel_guide.md) 待完成
 * [Significance of search system](ch-01/README.md)
   * [What problem does search solve](ch-01/search_solv.md)
   * [1.2 搜索的发展历史](ch-01/search_develop.md)
@@ -156,7 +157,7 @@ via c++ and hidden complex service governance logic behind.
   * 扩展资料
     * [扩展阅读](dl/readings.ipynb)
 
-* [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
+* [引擎内核设计](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
   * [table struct](ch-11/table_struct.md)
   * [11.2 向量引擎]
   * [11.3 term引擎]
