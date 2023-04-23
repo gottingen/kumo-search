@@ -121,6 +121,18 @@ via c++ and hidden complex service governance logic behind.
     * [项目发布约束](pf/base_rules/README.md)
     * [跨平台]() 待完成
     * [单元测试]() 待完成
+    * [string类]() 待完成
+    * [容器类]() 待完成
+  * 内存 & cpu
+    * [cpu 缓存]() 待完成
+    * [numa]() 待完成
+    * [内存池]() 待完成  
+  * 多线程
+    * [任务调度]() 待完成
+    * [smp]() 待完成
+    * [读优化]() 待完成
+    * [写优化]() 待完成
+    * [多协程]() 待完成
 * [机器学习基础](dl/index.ipynb)
   * 算法
     * [线性回归](dl/linear/index.ipynb)
