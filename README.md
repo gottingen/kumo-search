@@ -116,14 +116,11 @@ via c++ and hidden complex service governance logic behind.
   * [conda guide](ch-00/conda_guide.md)
   * [cmake guide](ch-00/cmake_guide.md) 待完成
   * [bazel guide](ch-00/bazel_guide.md) 待完成
-* [Significance of search system](ch-01/README.md)
-  * [What problem does search solve](ch-01/search_solv.md)
-  * [1.2 搜索的发展历史](ch-01/search_develop.md)
-
-* [2 搜索架构](ch-02/README.md)
-  * [2.1 整体架构](ch-02/arch_total.md)
-  * [2.2 搜索的引流](ch-02/stream.md)
-  * [2.2 搜索的评估](ch-02/evolate.md)
+* [工程基础](pf/README.md)
+  * 基础库
+    * [项目发布约束](pf/base_rules/README.md)
+    * [跨平台]() 待完成
+    * [单元测试]() 待完成
 * [机器学习基础](dl/index.ipynb)
   * 算法
     * [线性回归](dl/linear/index.ipynb)
@@ -151,12 +148,19 @@ via c++ and hidden complex service governance logic behind.
     * [c++ && python]() 待完成
     * [tensorflow专题]() 待完成
     * [tensorflow serving部署]() 待完成
-    * [triton 使用]() 待完成
+    * [triton inference server]() 待完成
     * [GPU编程]() 待完成
     * [IR专题]() 待完成
   * 扩展资料
     * [扩展阅读](dl/readings.ipynb)
+* [Significance of search system](ch-01/README.md)
+  * [What problem does search solve](ch-01/search_solv.md)
+  * [1.2 搜索的发展历史](ch-01/search_develop.md)
 
+* [2 搜索架构](ch-02/README.md)
+  * [2.1 整体架构](ch-02/arch_total.md)
+  * [2.2 搜索的引流](ch-02/stream.md)
+  * [2.2 搜索的评估](ch-02/evolate.md)
 * [引擎内核设计](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
   * [table struct](ch-11/table_struct.md)
   * [11.2 向量引擎]
