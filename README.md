@@ -123,8 +123,36 @@ via c++ and hidden complex service governance logic behind.
   * [2.1 整体架构](ch-02/arch_total.md)
   * [2.2 搜索的引流](ch-02/stream.md)
   * [2.2 搜索的评估](ch-02/evolate.md)
-* [Fundamentals of Deep Learning](dl/index.ipynb)
-  * [linear_regression](dl/linear/index.ipynb)
+* [机器学习基础](dl/index.ipynb)
+  * 算法
+    * [线性回归](dl/linear/index.ipynb)
+    * [数学符号](math_index.ipynb)
+    * [线性回归](linear/index.ipynb)
+    * [感知机](multilayer_perceptrons/index.ipynb)
+    * [深度学习计算](deep_learning_computation/index.ipynb)
+    * [卷积神经网络](convolutional_neural_networks/index.ipynb)
+    * [现代卷积神经网络](convolutional_modern/index.ipynb)
+    * [循环神经网络](recurrent_neural_networks/index.ipynb)
+    * [现代神经网络](recurrent_modern/index.ipynb)
+    * [注意力机制](attention_mechanisms/index.ipynb)
+    * [优化算法](optimization/index.ipynb)
+    * [计算性能](computational_performance/index.ipynb)
+    * [自然语言处理：预训练](natural_language_processing_pretraining/index.ipynb)
+    * [自然语言处理：应用](natural_language_processing_applications/index.ipynb)
+  * 机器学习框架
+    * [机器学习框架](framework/index.ipynb)
+    * [计算图](graph/index.ipynb)
+    * [ai编译器](compiler/index.ipynb) 待完成
+    * [数据处理框架]() 待完成
+    * [分布式训练]() 待完成
+    * [模型部署]() 待完成
+  * 工程实践
+    * [c++ && python]() 待完成
+    * [tensorflow专题]() 待完成
+    * [tensorflow serving部署]() 待完成
+    * [triton 使用]() 待完成
+    * [GPU编程]() 待完成
+    * [IR专题]() 待完成
 
 * [engine design](ch-11/README.md) [lambda engine](https://github.com/gottingen/lambda.git)
   * [table struct](ch-11/table_struct.md)
