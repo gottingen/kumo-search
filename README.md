@@ -19,13 +19,14 @@ design and function of the system.
 
 ## Technical discussions
 * @author Jeff.li
-* @email lijippy@163.com
-* @weichat: jeffli1024
+* @email bohuli2048@gmail.com
 
 # reference project
 ```mermaid
 flowchart TB
     A[turbo]-->B[libtext]
+    A[turbo]-->BB[titan-redis]
+    BB-->C[lambda]
     A[turbo]-->C[lambda]
     A[turbo]-->D[hercules]
     A[turbo]-->E[rigel]
@@ -42,6 +43,8 @@ c++ foundation library.
 
 * [libtext](https://github.com/gottingen/libtext.git) 
 chinese segment and normalize library.
+* [titan-redis](https://github.com/gottingen/titan-redis.git)
+disk storage using redis interface.
 * [lambda](https://github.com/gottingen/lambda.git) 
 host local search engine for mix term and vector search.
 * [rigel](https://github.com/gottingen/rigel.git) 
