@@ -26,9 +26,9 @@ design and function of the system.
 flowchart TB
     A[turbo]-->B[libtext]
     A[turbo]-->BB[titan-redis]
+    A[turbo]-->BC[titan-ann]
     BB-->C[lambda]
-    A[turbo]-->C[lambda]
-    A[turbo]-->D[hercules]
+    BC-->C[lambda]
     A[turbo]-->E[rigel]
     E[rigel]-->D[hercules]
     D[hercules]-->F[hvm]
@@ -45,6 +45,8 @@ c++ foundation library.
 chinese segment and normalize library.
 * [titan-redis](https://github.com/gottingen/titan-redis.git)
 disk storage using redis interface.
+* [titan-ann](https://github.com/gottingen/titan-ann.git)
+ann search engine base on graph.
 * [lambda](https://github.com/gottingen/lambda.git) 
 host local search engine for mix term and vector search.
 * [rigel](https://github.com/gottingen/rigel.git) 
