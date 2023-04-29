@@ -178,7 +178,7 @@ via c++ and hidden complex service governance logic behind.
 
 * [搜索导流](diversion/index.ipynb)
   * [提示词](diversion/sug.ipynb)
-
+  * [相关搜索](diversion/rel_search.ipynb)
 
 * [2 搜索架构](ch-02/README.md)
   * [2.1 整体架构](ch-02/arch_total.md)
