@@ -174,6 +174,8 @@ via c++ and hidden complex service governance logic behind.
   * [What problem does search solve](ch-01/search_solv.md)
   * [1.2 搜索的发展历史](ch-01/search_develop.md)
 
+* [搜索导流](diversion/index.ipynb)
+
 * [2 搜索架构](ch-02/README.md)
   * [2.1 整体架构](ch-02/arch_total.md)
   * [2.2 搜索的引流](ch-02/stream.md)
