@@ -1,23 +1,21 @@
 search legend
 ====
 
-[中文版](README.md)|[English](README_en.md)|[Release Notes](NEWS.md)|[Contributors](contributors.md)
+[[中文版](README.md)|[English](README_en.md)|[Release Notes](NEWS.md)|[Contributors](contributors.md)
 
 
-# 端到端搜索
+# what it is?
 
-曾经，企业搭建一套搜索系统，出于技术难度、资料完善成都，社区支持，人力资源等各方面的权衡，大多数会选择ES作为
-基础，在ES的基础上进一步的开发迭代。不可否认，ES是一款优秀的产品，在不少业务上发挥着重要的作用。然而，ES有着它
-固有的限制。工程方面，ES的数据量级能够支撑到10亿级别，数据量再大了，运维、用户体验会收到很大影响。从业务角度来说，比如分词用jieba，粗排用bm25等，在现在nn成熟的时代，搜索的质量已经达不到业务的要求。在ES上继续发力开发插件
-的方式也得不偿失。总体来说，用ES搭建初版引擎，可以达到60分的效果。要将分数提高到80分，从ROI的角度来说，并不比
-从头搭建一套资源低。
-
-本项目的目的是建立一套**端到端**的搜索框架，可以支撑**百亿**量级,可以达到**80分**的框架系统化。
-
-产品的形态是**开箱即用**,初始，内部集成nn排序，推理，向量计算等模块，用户可以在统一的nn接口的基础上，
-通过迭代算法，低成本让搜索的质量得到提高。
-
-系统的另一个亮点是IR技术，即用户通过python的程序编写业务逻辑，框架会同步自动生成c++代码，以c++程序的方式运行。提升程序的性能，进一步提升产品迭代周期（省去评审、c++开发，c++测试等中间环节）。
+In 2023 or the second half of 2022, after
+several years of dormancy, the big model finally 
+showed his powerful ability to the world in the 
+form of chatgpt. This project is the entry project of 
+the Gottingen organization, which aims to introduce how 
+to implement a search system and provide a suitable way
+to access the components of the large model. The project
+takes engineering realization and actual landing projects 
+as the main line, and gradually explains the principle, 
+design and function of the system.
 
 ## Technical discussions
 * @author Jeff.li
