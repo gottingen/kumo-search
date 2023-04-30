@@ -129,6 +129,17 @@ via c++ and hidden complex service governance logic behind.
     * [tensor--张量](tf_reading/tensor.md)
     * [内存分配器](tf_reading/allocator.md)
     * [资源管理器](tf_reading/resouce.md)
+    * [算子定义](tf_reading/op.md)
+    * [算子实现](tf_reading/kernel.md)
+    * [图节点](tf_reading/node.md)
+    * [图定义](tf_reading/graph.md)
+    * [设备](tf_reading/device.md)
+    * [函数](tf_reading/function.md)
+    * [形状判断](tf_reading/shape_inference.md)
+    * [运行时设备](docs/runtime_device.md)
+    * [运行时执行器](docs/runtime_executor.md)
+    * [运行时session](docs/session.md)
+    * [运行时direct session](docs/runtime_direct_session.md)
   * 基础库
     * [项目发布约束](pf/base_rules/README.md)
     * [跨平台]() 待完成
