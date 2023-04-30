@@ -124,6 +124,8 @@ via c++ and hidden complex service governance logic behind.
   * [cmake guide](ch-00/cmake_guide.md) 待完成
   * [bazel guide](ch-00/bazel_guide.md) 待完成
 * [工程基础](pf/README.md)
+  * tensorflow
+    * [源码目录](tf210/index.ipynb)
   * 基础库
     * [项目发布约束](pf/base_rules/README.md)
     * [跨平台]() 待完成
