@@ -126,6 +126,9 @@ via c++ and hidden complex service governance logic behind.
 * [工程基础](pf/README.md)
   * tensorflow
     * [源码目录](tf210/index.ipynb)
+    * [tensor--张量](tf_reading/tensor.md)
+    * [内存分配器](tf_reading/allocator.md)
+    * [资源管理器](tf_reading/resouce.md)
   * 基础库
     * [项目发布约束](pf/base_rules/README.md)
     * [跨平台]() 待完成
