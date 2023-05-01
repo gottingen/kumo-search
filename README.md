@@ -126,7 +126,7 @@ via c++ and hidden complex service governance logic behind.
 * [工程基础](pf/README.md)
   * [tensorflow 工程化](tf210/tf_project/README.md)
     * [tensorflow 编译安装](tf210/tf_project/compile.md)
-    * [简易安装](tf210/tf_project/simple_install.md)
+    * [使用conda编译及部署](tf210/tf_project/simple_install.md)
   * [tensorflow 源码分析](tf210/index.ipynb)
     * [tensor--张量](tf210/tf_reading/tensor.md)
     * [内存分配器](tf210/tf_reading/allocator.md)
