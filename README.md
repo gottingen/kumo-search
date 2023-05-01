@@ -57,7 +57,7 @@ ai and rpc runtime library, to manage memory and fiber or thread schedule.
 python Aot framework for integrated components interface rpc and ai backend like tesorflow or pytorch
 * [hvm](https://github.com/gottingen/hvm.git) (not start now)
 framework gateway, let us write python and generate c++ code and run in llvm.
-
+* [tensorflow build](https://github.com/gottingen/tensorflow-build) tensorflow c++ 编译与安装脚本项目
 # the goals
 
 ```mermaid
@@ -124,8 +124,9 @@ via c++ and hidden complex service governance logic behind.
   * [cmake guide](ch-00/cmake_guide.md) 待完成
   * [bazel guide](ch-00/bazel_guide.md) 待完成
 * [工程基础](pf/README.md)
-  * tensorflow
-    * [源码目录](tf210/index.ipynb)
+  * [tensorflow 工程化](tf210/tf_project/README.md)
+    * [tensorflow 编译安装](tf210/tf_project/compile.md)
+  * [tensorflow 源码分析](tf210/index.ipynb)
     * [tensor--张量](tf210/tf_reading/tensor.md)
     * [内存分配器](tf210/tf_reading/allocator.md)
     * [资源管理器](tf210/tf_reading/resouce.md)
