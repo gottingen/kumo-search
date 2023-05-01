@@ -71,7 +71,7 @@ compiler  create_tensorflow.python_api_tf_python_api_gen_v2.runfiles_manifest  _
 
 ```
 
-为了方便使用，整理了一套tensorflow编译安装的脚本，参见[tensorflow build](https://github.com/gottingen/tensorflow-build)。
+为了方便使用，整理了一套tensorflow编译安装的脚本，参见[tensorflow build](https://github.com/gottingen/tensorflow-build)。[简易安装](simple_install.md)
 
 
 
