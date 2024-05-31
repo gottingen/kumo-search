@@ -1,7 +1,0 @@
-path: "tensorflow.types.experimental"
-tf_module {
-  member {
-    name: "TensorLike"
-    mtype: "typing.Union"
-  }
-}
