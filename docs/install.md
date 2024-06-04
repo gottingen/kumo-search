@@ -1,7 +1,7 @@
 安装与使用
 ==================
 
-# EA 依赖
+# 基础环境准备
 
 `EA`(Elastic automic infrastructure architecture)系列的应用和服务都会使用静态编译的方式进行部署，这样可以减少运行时的依赖，提高运行效率。
 `EA`为了方便项目依赖和用户安装部署，提供了[carbin][1]工具，用于下载文件和安装，具体参开[carbin docs][2]. cmake构建系统
