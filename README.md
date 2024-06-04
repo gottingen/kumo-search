@@ -108,7 +108,7 @@ cmake自带的管理工具，不太适合大型工程的管理，每次重新编
 
 centos7-openssl11-python-310-gcc-9.3:
 
-  lijippy/ea_inf:c7_base_v1
+    lijippy/ea_inf:c7_base_v1
 
 
 ## 作者
