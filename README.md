@@ -81,7 +81,7 @@
 
 `EA`是服务端应用的基础架构，`EA`目前支持`centos`和`ubuntu`两种操作系统，`mac`系统目前在开发中， 尽最大可能支持`mac`
 系统。但目前并没有
-尝试，为方便编译和ide开发，后续部分功能可能进行尝试兼容。基础环境部署参见[安装与使用](docs/install.md)
+尝试，为方便编译和ide开发，后续部分功能可能进行尝试兼容。基础环境部署参见[安装与使用](docs/inf/inf.md)
 
 `EA`体系的`cicd`使用[carbin][4]工具进行管理。`carbin`是一个`c++`包管理器，`cmake`生成器，`cicd`工具。`carbin`可以下载第三方依赖库，
 生成`cmake`构建系统，进行工程编译和部署。`carbin`的使用参见[carbin docs](https://carbin.readthedocs.io/zh-cn/latest/)
