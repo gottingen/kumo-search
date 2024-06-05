@@ -1,4 +1,4 @@
-![][1]
+![][50]
 
 <p align="center">
     <a> <font face="黑体" color=#6628ff size=4>|&nbsp; </font></a>
@@ -34,7 +34,7 @@
 
 # 功能展示
 
-![][2]
+![][51]
 
 # 技术专题
 
@@ -46,40 +46,41 @@
 
 ## 基础库项目
 
-| 序号 | 项目名             | 说明                           | 进度                           |
-|:---|:----------------|:-----------------------------|:-----------------------------|
-| 1  | collie          | 头文件库                         | 完成                           |
-| 2  | turbo           | 容器、日志                        | 完成                           |
-| 3  | melon           | rpc网络库                       | 主体完成，待完善周边功能                 |
-| 4  | alkaid 瑶光       | 文件操作                         | 本地部分完成，待增加hdfs，s3等存储支持       |
-| 5  | mizar开阳         | kv引擎                         | 待开发wisekey功能，暂时先用rocksdb官方版本 |
-| 6  | alioth玉衡        | 表格内存                         | 开发中                          |
-| 7  | megrez天权        | 数据集读写                        | hdf5 cvs bin已完成，待封装高级c++api  |
-| 8  | phecda 天玑       | 向量引擎内核                       | 开发中，部分功能暂时使用官方faiss          |
-| 9  | merak天璇         | 综合搜索引擎内核                     | 待开发                          |
-| 10 | dubhe 天枢        | nlp内核                        | 待开发                          |
-| 11 | flare           | 张量计算                         | 完成，cpu版本待优化                  |
-| 12 | theia           | 图像显示                         | 完成                           |
-| 13 | dwarf           | jupyter协议c++内核               | 完成                           |
-| 14 | exodus          | hercules and other jupyter应用 | 完成                           |
-| 15 | hercules        | python aot编译器                | 完成,c++ interpreter 开发中       |
-| 16 | carbin          | c++包管理器，cmake生成器             | 完成                           |
-| 17 | carbin-template | cmake模板库                     | 完成                           |
-| 18 | hadar           | suggest 搜索建议服务 内核            | 接近完成，商用不开源                   |
+| 序号 | 项目名                   | 说明                           | 进度                           |
+|:---|:----------------------|:-----------------------------|:-----------------------------|
+| 1  | [collie][1]           | 头文件库                         | 完成                           |
+| 2  | [turbo][2]            | 容器、日志                        | 完成                           |
+| 3  | [melon][3]            | rpc网络库                       | 主体完成，待完善周边功能                 |
+| 4  | [alkaid][4]           | 文件操作                         | 本地部分完成，待增加hdfs，s3等存储支持       |
+| 5  | [mizar][5]            | kv引擎                         | 待开发wisekey功能，暂时先用rocksdb官方版本 |
+| 6  | alioth玉衡              | 表格内存                         | 开发中                          |
+| 7  | megrez天权              | 数据集读写                        | hdf5 cvs bin已完成，待封装高级c++api  |
+| 8  | phecda 天玑             | 向量引擎内核                       | 开发中，部分功能暂时使用官方faiss          |
+| 9  | merak天璇               | 综合搜索引擎内核                     | 待开发                          |
+| 10 | dubhe 天枢              | nlp内核                        | 待开发                          |
+| 11 | [flare][11]           | 张量计算                         | 完成，cpu版本待优化                  |
+| 12 | [theia][12]           | 图像显示                         | 完成                           |
+| 13 | [dwarf][13]           | jupyter协议c++内核               | 完成                           |
+| 14 | [exodus][14]          | hercules and other jupyter应用 | 完成                           |
+| 15 | [hercules][15]        | python aot编译器                | 完成,c++ interpreter 开发中       |
+| 16 | [carbin][16]          | c++包管理器，cmake生成器             | 完成                           |
+| 17 | [carbin-template][17] | cmake模板库                     | 完成                           |
+| 18 | [carbin-recipes][18]  | carbin recipes 依赖库自定义配置      | 完成                           |
+| 18 | hadar                 | suggest 搜索建议服务 内核            | 接近完成，商用不开源                   |
 
 ## kumo search 服务项目
 
-| 序号 | 项目名       | 说明                                  | 进度        |
-|:---|:----------|:------------------------------------|:----------|
-| 1  | sirius    | EA元数据服务器 服务发现，全局时钟服务，全局配置服务， 全局id服务 | 完成        |
-| 2  | polaris   | 向量引擎单机服务                            | 完成        |
-| 3  | elnath    | 综合搜索引单机服务                           | 开发中       |
-| 4  | vega      | 向量引擎数据库集群版                          | 完成 商用不开源  |
-| 5  | arcturus  | 综合搜索引擎集群版                           | 开发中 商用不开源 |
-| 6  | pollux    | 综合引擎业务控制台                           | 开发中 商用不开源 |
-| 7  | capella   | ltr排序服务                             | 开发中 商用不开源 |
-| 8  | aldebaran | suggest搜索建议服务集群                     | 开发中 商用不开源 |
-| 9  | nunki     | nlp服务                               | 开发中 商用不开源 |
+| 序号 | 项目名          | 说明                                  | 进度        |
+|:---|:-------------|:------------------------------------|:----------|
+| 1  | [sirius][31] | EA元数据服务器 服务发现，全局时钟服务，全局配置服务， 全局id服务 | 完成        |
+| 2  | polaris      | 向量引擎单机服务                            | 完成        |
+| 3  | elnath       | 综合搜索引单机服务                           | 开发中       |
+| 4  | vega         | 向量引擎数据库集群版                          | 完成 商用不开源  |
+| 5  | arcturus     | 综合搜索引擎集群版                           | 开发中 商用不开源 |
+| 6  | pollux       | 综合引擎业务控制台                           | 开发中 商用不开源 |
+| 7  | capella      | ltr排序服务                             | 开发中 商用不开源 |
+| 8  | aldebaran    | suggest搜索建议服务集群                     | 开发中 商用不开源 |
+| 9  | nunki        | nlp服务                               | 开发中 商用不开源 |
 
 # 基础环境与CI/CD
 
@@ -118,16 +119,43 @@ centos7-openssl11-python-310-gcc-9.3:
 
 * 天空中最亮的星 ———— [集群元数据服务](docs/application/sirius/sirius.md) - 服务发现，全局时钟服务，全局配置服务，全局id服务
 
-
 ## 作者
 
 * @author Jeff.li vicky codejie
 * @email bohuli2048@gmail.com
 
-[1]: images/kumo_search_logo.png
+[1]: https://github.com/gottingen/collie
 
-[2]: images/kumo_search.gif
+[2]: https://github.com/gottingen/turbo
 
-[3]: images/K_64x64.png
+[3]: https://github.com/gottingen/melon
 
-[4]: https://github.com/gottingen/carbin
+[4]: https://github.com/gottingen/alkaid
+
+[5]: https://github.com/gottingen/mizar
+
+
+[11]: https://github.com/gottingen/flare
+
+[12]: https://github.com/gottingen/theia
+
+[13]: https://github.com/gottingen/dwarf
+
+[14]: https://github.com/gottingen/exodus
+
+[15]: https://github.com/gottingen/hercules
+
+[16]: https://github.com/gottingen/carbin
+
+[17]: https://github.com/gottingen/carbin-template
+
+[18]: https://github.com/gottingen/carbin-recipes
+
+[31]: https://github.com/gottingen/sirius
+
+
+[50]: images/kumo_search_logo.png
+
+[51]: images/kumo_search.gif
+
+[52]: images/K_64x64.png
