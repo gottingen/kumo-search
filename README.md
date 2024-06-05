@@ -2,7 +2,7 @@
 
 <p align="center">
     <a></a> <font face="黑体" color=#6628ff size=4>|&nbsp; </font></a>
-    <a href="docs/product.md"><font face="黑体" color=#0099fc size=4>功能</font></a>
+    <a href="docs/product.md"><font face="黑体" color=#0099fc size=4>应用</font></a>
     <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
     <a href="docs/install.md"><font face="黑体" color=#0099fc size=4>安装</font></a>
     <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
@@ -109,6 +109,10 @@ cmake自带的管理工具，不太适合大型工程的管理，每次重新编
 centos7-openssl11-python-310-gcc-9.3:
 
     lijippy/ea_inf:c7_base_v1
+
+# [服务与应用](docs/product.md)
+
+* 天空中最亮的星 ———— [集群元数据服务](docs/application/sirius/sirius.md) - 服务发现，全局时钟服务，全局配置服务，全局id服务
 
 
 ## 作者
