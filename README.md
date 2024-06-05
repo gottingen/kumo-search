@@ -1,19 +1,23 @@
 ![][1]
 
 <p align="center">
-    <a></a> <font face="黑体" color=#6628ff size=4>|&nbsp; </font></a>
+    <a> <font face="黑体" color=#6628ff size=4>|&nbsp; </font></a>
     <a href="docs/product.md"><font face="黑体" color=#0099fc size=4>应用</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/install.md"><font face="黑体" color=#0099fc size=4>安装</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/develop.md"><font face="黑体" color=#0099fc size=4>开发</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/docs.md"><font face="黑体" color=#0099fc size=4>文档</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>系列</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
-    <a href="acknowledgments.md"><font face="黑体" color=#0099fc size=4>FAQ</font></a>
-    <a></a> <font face="黑体" color=#6628ff size=4> &nbsp;|</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
+    <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>深度学习</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
+    <a href="docs/faq/faq.md"><font face="黑体" color=#0099fc size=4>FAQ</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-</font></a>
+    <a href="docs/tips/tips.md"><font face="黑体" color=#0099fc size=4>TIPS</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;|</font></a>
 </p>
 
 # 端到端搜索
