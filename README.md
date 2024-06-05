@@ -12,6 +12,8 @@
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>系列</font></a>
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
+    <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>深度学习</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/faq/faq.md"><font face="黑体" color=#0099fc size=4>FAQ</font></a>
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-</font></a>
     <a href="docs/tips/tips.md"><font face="黑体" color=#0099fc size=4>TIPS</font></a>
