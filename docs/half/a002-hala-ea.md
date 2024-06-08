@@ -148,6 +148,6 @@ gottingen/carbin-recipes@ea 是`EA`一个菜谱，封装一些库，方便用户
 本节主要介绍了如何创建一个c++库和一个c++应用，以及如何使用`carbin`管理项目依赖库。`carbin`是一个c++项目管理工具，可以帮助用户快速创建c++项目，
 管理项目依赖库，以及编译项目。`carbin`的使用非常简单，只需要一个命令就可以创建一个c++项目。
 
-下一节将介绍如何创建一个如何基于 `EA` inf创建一个 http 服务，以及如何使用`carbin`管理有树状依赖的项目。
+下一节内容将介绍，项目稳定的保障，测试和基准测试。
 
 [1]:https://github.com/gottingen/ea-half-an-hour/tree/master/a002-hala-ea
