@@ -10,14 +10,16 @@
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/docs.md"><font face="黑体" color=#0099fc size=4>文档</font></a>
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
-    <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>系列</font></a>
-    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>深度学习</font></a>
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-&nbsp; </font></a>
     <a href="docs/faq/faq.md"><font face="黑体" color=#0099fc size=4>FAQ</font></a>
     <a> <font face="黑体" color=#6628ff size=4> &nbsp;-</font></a>
     <a href="docs/tips/tips.md"><font face="黑体" color=#0099fc size=4>TIPS</font></a>
-    <a> <font face="黑体" color=#6628ff size=4> &nbsp;|</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-</font></a>
+    <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>EA半小时</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;-</font></a>
+    <a href="docs/lecture.md"><font face="黑体" color=#0099fc size=4>技术专题</font></a>
+    <a> <font face="黑体" color=#6628ff size=4> &nbsp;|&nbsp; </font></a>
 </p>
 
 # 端到端搜索
@@ -114,6 +116,11 @@ cmake自带的管理工具，不太适合大型工程的管理，每次重新编
 centos7-openssl11-python-310-gcc-9.3:
 
     lijippy/ea_inf:c7_base_v1
+
+# [EA半小时](docs/halfanhour.md)
+
+* [a001-hala-ea](docs/half/a001-hala-ea.md) - 基础环境安装，使用carbin创建项目
+* [a002-hala-ea](docs/half/a002-hala-ea.md) - 创建一个c++应用，在cmake创建库并使用
 
 # [服务与应用](docs/product.md)
 
