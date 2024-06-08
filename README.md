@@ -38,12 +38,6 @@
 
 ![][51]
 
-# 技术专题
-
-* [cmake有点甜](cicd/sweet_cmake.md) - 利用cmake构建系统进行工程编译和部署，实现cicd自动化。
-* [走近AI：向量检索](vecsearch/vector.md) - 向量检索是一种基于向量相似度的检索技术，本文介绍了向量检索的基本原理和应用场景,
-  以及kumo搜索引擎的实现。
-
 # 项目概览
 
 ## 基础库项目
@@ -84,6 +78,13 @@
 | 8  | aldebaran    | suggest搜索建议服务集群                     | 开发中 商用不开源 |
 | 9  | nunki        | nlp服务                               | 开发中 商用不开源 |
 
+
+# [EA半小时](docs/halfanhour.md)
+
+* [a001-hala-ea](docs/half/a001-hala-ea.md) - 基础环境安装，使用carbin创建项目
+* [a002-hala-ea](docs/half/a002-hala-ea.md) - 创建一个c++应用，在cmake创建库并使用
+
+
 # 基础环境与CI/CD
 
 `EA`是服务端应用的基础架构，`EA`目前支持`centos`和`ubuntu`两种操作系统，`mac`系统目前在开发中， 尽最大可能支持`mac`
@@ -117,14 +118,16 @@ centos7-openssl11-python-310-gcc-9.3:
 
     lijippy/ea_inf:c7_base_v1
 
-# [EA半小时](docs/halfanhour.md)
-
-* [a001-hala-ea](docs/half/a001-hala-ea.md) - 基础环境安装，使用carbin创建项目
-* [a002-hala-ea](docs/half/a002-hala-ea.md) - 创建一个c++应用，在cmake创建库并使用
 
 # [服务与应用](docs/product.md)
 
 * 天空中最亮的星 ———— [集群元数据服务](docs/application/sirius/sirius.md) - 服务发现，全局时钟服务，全局配置服务，全局id服务
+
+# 技术专题
+
+* [cmake有点甜](cicd/sweet_cmake.md) - 利用cmake构建系统进行工程编译和部署，实现cicd自动化。
+* [走近AI：向量检索](vecsearch/vector.md) - 向量检索是一种基于向量相似度的检索技术，本文介绍了向量检索的基本原理和应用场景,
+  以及kumo搜索引擎的实现。
 
 ## 作者
 
