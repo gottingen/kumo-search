@@ -46,12 +46,12 @@
 |:---|:----------------------|:------------------------------------------|:-----------------------------------|
 | 1  | [collie][1]           | 引用外部header only library 如jason，toml等，统一管理 |                                    |
 | 2  | [turbo][2]            | hash，log，容器类，字符串相关操作                      |                                    |
-| 3  | [melon][3]            | rrpc通信                                    |                                    |
+| 3  | [melon][3]            | rpc通信                                     |                                    |
 | 4  | [alkaid][4]           | 文件系统封装、本地文件，hdfs，s3等                      | 文件系统统一api，zlib，lz4，zst unified api |
 | 5  | [mizar][5]            | 基于rocksdb，toplingdb存储引擎内核                 | 待开发wisekey功能，暂时先用rocksdb官方版本       |
 | 6  | alioth玉衡              | 表格内存                                      | 开发中                                |
 | 7  | megrez天权              | 数据集读写                                     | hdf5 cvs bin已完成，待封装高级c++api        |
-| 8  | [phecda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             |                                    |
+| 8  | [phekda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             |                                    |
 | 9  | merak天璇               | 综合搜索引擎内核                                  | 待开发                                |
 | 10 | dubhe 天枢              | nlp内核                                     | 待开发                                |
 | 11 | [flare][11]           | gpu、cpu高维张量计算，等计算                         |                                    |
@@ -142,7 +142,7 @@ centos7-openssl11-python-310-gcc-9.3:
 
 [5]: https://github.com/gottingen/mizar
 
-[8]: https://github.com/gottingen/phecda
+[8]: https://github.com/gottingen/phekda
 
 [11]: https://github.com/gottingen/flare
 
