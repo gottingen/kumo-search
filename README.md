@@ -51,7 +51,7 @@
 | 5  | [mizar][5]            | 基于rocksdb，toplingdb存储引擎内核                 | 待开发wisekey功能，暂时先用rocksdb官方版本       |
 | 6  | alioth玉衡              | 表格内存                                      | 开发中                                |
 | 7  | megrez天权              | 数据集读写                                     | hdf5 cvs bin已完成，待封装高级c++api        |
-| 8  | [phekda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             |                                    |
+| 8  | [phekda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             | 支持snapshot，过滤插件                    |
 | 9  | merak天璇               | 综合搜索引擎内核                                  | 待开发                                |
 | 10 | dubhe 天枢              | nlp内核                                     | 待开发                                |
 | 11 | [flare][11]           | gpu、cpu高维张量计算，等计算                         |                                    |
