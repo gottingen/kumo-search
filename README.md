@@ -42,27 +42,27 @@
 
 ## 基础库项目
 
-| 序号 | 项目名                   | 说明                                        | 说明                           |
-|:---|:----------------------|:------------------------------------------|:-----------------------------|
-| 1  | [collie][1]           | 引用外部header only library 如jason，toml等，统一管理 |                              |
-| 2  | [turbo][2]            | hash，log，容器类，字符串相关操作                      |                              |
-| 3  | [melon][3]            | rrpc通信                                    |                              |
-| 4  | [alkaid][4]           | 文件系统封装、本地文件，hdfs，s3等                      | 本地部分完成，待增加hdfs，s3等存储支持       |
-| 5  | [mizar][5]            | 基于rocksdb，toplingdb存储引擎内核                 | 待开发wisekey功能，暂时先用rocksdb官方版本 |
-| 6  | alioth玉衡              | 表格内存                                      | 开发中                          |
-| 7  | megrez天权              | 数据集读写                                     | hdf5 cvs bin已完成，待封装高级c++api  |
-| 8  | [phecda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             |                              |
-| 9  | merak天璇               | 综合搜索引擎内核                                  | 待开发                          |
-| 10 | dubhe 天枢              | nlp内核                                     | 待开发                          |
-| 11 | [flare][11]           | gpu、cpu高维张量计算，等计算                         |                              |
-| 12 | [theia][12]           | 基于opengl图形图像显示，服务端不可用（无显示设备）              |                              |
-| 13 | [dwarf][13]           | jupyter协议c++内核                            |                              |
-| 14 | [exodus][14]          | hercules and other jupyter应用              | 完成                           |
-| 15 | [hercules][15]        | python aot编译器                             |                              |
-| 16 | [carbin][16]          | c++包管理器，cmake生成器                          | 完成                           |
-| 17 | [carbin-template][17] | cmake模板库                                  | 完成                           |
-| 18 | [carbin-recipes][18]  | carbin recipes 依赖库自定义配置                   | 完成                           |
-| 18 | hadar                 | suggest 搜索建议服务 内核                         | 接近完成，商用不开源                   |
+| 序号 | 项目名                   | 说明                                        | 说明                                 |
+|:---|:----------------------|:------------------------------------------|:-----------------------------------|
+| 1  | [collie][1]           | 引用外部header only library 如jason，toml等，统一管理 |                                    |
+| 2  | [turbo][2]            | hash，log，容器类，字符串相关操作                      |                                    |
+| 3  | [melon][3]            | rpc通信                                     |                                    |
+| 4  | [alkaid][4]           | 文件系统封装、本地文件，hdfs，s3等                      | 文件系统统一api，zlib，lz4，zst unified api |
+| 5  | [mizar][5]            | 基于rocksdb，toplingdb存储引擎内核                 | 待开发wisekey功能，暂时先用rocksdb官方版本       |
+| 6  | alioth玉衡              | 表格内存                                      | 开发中                                |
+| 7  | megrez天权              | 数据集读写                                     | hdf5 cvs bin已完成，待封装高级c++api        |
+| 8  | [phekda][8]           | 统一向量引擎访问api UnifiedIndex，简化接口             | 支持snapshot，过滤插件                    |
+| 9  | merak天璇               | 综合搜索引擎内核                                  | 待开发                                |
+| 10 | dubhe 天枢              | nlp内核                                     | 待开发                                |
+| 11 | [flare][11]           | gpu、cpu高维张量计算，等计算                         |                                    |
+| 12 | [theia][12]           | 基于opengl图形图像显示，服务端不可用（无显示设备）              |                                    |
+| 13 | [dwarf][13]           | jupyter协议c++内核                            |                                    |
+| 14 | [exodus][14]          | hercules and other jupyter应用              | 完成                                 |
+| 15 | [hercules][15]        | python aot编译器                             |                                    |
+| 16 | [carbin][16]          | c++包管理器，cmake生成器                          | 完成                                 |
+| 17 | [carbin-template][17] | cmake模板库                                  | 完成                                 |
+| 18 | [carbin-recipes][18]  | carbin recipes 依赖库自定义配置                   | 完成                                 |
+| 18 | hadar                 | suggest 搜索建议服务 内核                         | 接近完成，商用不开源                         |
 
 ## kumo search 服务项目
 
@@ -78,13 +78,12 @@
 | 8  | aldebaran    | suggest搜索建议服务集群                     | 开发中 商用不开源 |
 | 9  | nunki        | nlp服务                               | 开发中 商用不开源 |
 
-
 # [EA半小时](docs/halfanhour.md)
 
 * [a001-hala-ea](docs/half/a001-hala-ea.md) - 基础环境安装，使用carbin创建项目
 * [a002-hala-ea](docs/half/a002-hala-ea.md) - 创建一个c++应用，在cmake创建库并使用
 * [a003-hala-ea](docs/half/a003-hala-ea.md) - 创建一个c++库，使用googletest进行单元测试
-
+* [a004-hala-restful](docs/half/a004-hala-restful.md) - 使用melon库, 创建一个restful服务
 
 # 基础环境与CI/CD
 
@@ -119,7 +118,6 @@ centos7-openssl11-python-310-gcc-9.3:
 
     lijippy/ea_inf:c7_base_v1
 
-
 # [服务与应用](docs/product.md)
 
 * 天空中最亮的星 ———— [集群元数据服务](docs/application/sirius/sirius.md) - 服务发现，全局时钟服务，全局配置服务，全局id服务
@@ -145,7 +143,7 @@ centos7-openssl11-python-310-gcc-9.3:
 
 [5]: https://github.com/gottingen/mizar
 
-[8]: https://github.com/gottingen/phecda
+[8]: https://github.com/gottingen/phekda
 
 [11]: https://github.com/gottingen/flare
 
