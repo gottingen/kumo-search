@@ -84,6 +84,7 @@
 * [a002-hala-ea](docs/half/a002-hala-ea.md) - 创建一个c++应用，在cmake创建库并使用
 * [a003-hala-ea](docs/half/a003-hala-ea.md) - 创建一个c++库，使用googletest进行单元测试
 * [a004-hala-restful](docs/half/a004-hala-restful.md) - 使用melon库, 创建一个restful服务
+* [a005-hala-echo](docs/half/a005-hala-echo.md) - 使用melon库, 创建一个echo服务
 
 # 基础环境与CI/CD
 
