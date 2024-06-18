@@ -85,6 +85,7 @@
 * [a003-hala-ea](docs/half/a003-hala-ea.md) - 创建一个c++库，使用googletest进行单元测试
 * [a004-hala-restful](docs/half/a004-hala-restful.md) - 使用melon库, 创建一个restful服务
 * [a005-hala-echo](docs/half/a005-hala-echo.md) - 使用melon库, 创建一个echo服务
+* [a006-hala-vue](docs/half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面
 
 # 基础环境与CI/CD
 

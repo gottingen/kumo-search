@@ -8,6 +8,7 @@ EA半小时
 * [创建一个库](half/a003-hala-ea.md) - 创建一个c++库，使用googletest进行单元测试 代码仓库：[hallo-ea-03][3]
 * [创建一个restful服务](half/a004-hala-restful.md) - 创建一个restful服务，使用melon库 代码仓库：[hallo-ea-04][4]
 * [创建一个echo服务](half/a005-hala-echo.md) - 创建一个echo服务，使用melon库 代码仓库：[hallo-ea-05][5]
+* [创建一个cache服务,并提供浏览器访问界面](half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面 代码仓库：[hallo-ea-06][6]
 
 
 
@@ -16,4 +17,5 @@ EA半小时
 [2]: https://github.com/gottingen/ea-half-an-hour/tree/master/a002-hala-ea
 [3]: https://github.com/gottingen/ea-half-an-hour/tree/master/a003-hala-ea
 [4]: https://github.com/gottingen/ea-half-an-hour/tree/master/a004-hala-restful
-[5]: https://github.com/gottingen/ea-half-an-hour/tree/master/a004-hala-echo
+[5]: https://github.com/gottingen/ea-half-an-hour/tree/master/a005-hala-echo
+[6]: https://github.com/gottingen/ea-half-an-hour/tree/master/a006-hala-vue
