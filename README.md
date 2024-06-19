@@ -88,6 +88,11 @@
 * [a006-hala-vue](docs/half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面
 * [a007-hala-vue-ext](docs/half/a007-hala-vue-ext.md) - cache服务源码解读
 
+# [搜索架构之旅](https://juejin.cn/user/42219472170896/columns)
+
+## 走近AI：向量检索系列
+* [一 向量检索为何受到工业界和开发者青睐？](https://juejin.cn/post/7381372851121831974?searchId=20240619101012ED67E7AC3C349325CB2F)
+
 # 基础环境与CI/CD
 
 `EA`是服务端应用的基础架构，`EA`目前支持`centos`和`ubuntu`两种操作系统，`mac`系统目前在开发中， 尽最大可能支持`mac`
