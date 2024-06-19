@@ -10,6 +10,7 @@ EA半小时
 * [创建一个echo服务](half/a005-hala-echo.md) - 创建一个echo服务，使用melon库 代码仓库：[hallo-ea-05][5]
 * [创建一个cache服务,并提供浏览器访问界面](half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面 代码仓库：[hallo-ea-06][6]
 * [cache服务源码解读](half/a007-hala-vue-ext.md) - cache服务源码解读 代码仓库：[hallo-ea-06][6]
+* [单机kv服务完整实现](half/a008-hala-kv.md) - 单机kv服务完整实现 代码仓库：[hallo-ea-08][8]
 
 
 
@@ -20,3 +21,4 @@ EA半小时
 [4]: https://github.com/gottingen/ea-half-an-hour/tree/master/a004-hala-restful
 [5]: https://github.com/gottingen/ea-half-an-hour/tree/master/a005-hala-echo
 [6]: https://github.com/gottingen/ea-half-an-hour/tree/master/a006-hala-vue
+[8]: https://github.com/gottingen/ea-half-an-hour/tree/master/a008-hala-kv

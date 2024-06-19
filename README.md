@@ -89,6 +89,7 @@
 * [a005-hala-echo](docs/half/a005-hala-echo.md) - 使用melon库, 创建一个echo服务
 * [a006-hala-vue](docs/half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面
 * [a007-hala-vue-ext](docs/half/a007-hala-vue-ext.md) - cache服务源码解读
+* [a008-hala-kv](docs/half/a008-hala-kv.md) - 单机kv服务完整实现
 
 # [搜索架构之旅](https://juejin.cn/user/42219472170896/columns)
 
