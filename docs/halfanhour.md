@@ -9,6 +9,7 @@ EA半小时
 * [创建一个restful服务](half/a004-hala-restful.md) - 创建一个restful服务，使用melon库 代码仓库：[hallo-ea-04][4]
 * [创建一个echo服务](half/a005-hala-echo.md) - 创建一个echo服务，使用melon库 代码仓库：[hallo-ea-05][5]
 * [创建一个cache服务,并提供浏览器访问界面](half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面 代码仓库：[hallo-ea-06][6]
+* [cache服务源码解读](half/a007-hala-vue-ext.md) - cache服务源码解读 代码仓库：[hallo-ea-06][6]
 
 
 
