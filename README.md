@@ -63,6 +63,7 @@
 | 17 | [carbin-template][17] | cmake模板库                                  | 完成                                 |
 | 18 | [carbin-recipes][18]  | carbin recipes 依赖库自定义配置                   | 完成                                 |
 | 18 | hadar                 | suggest 搜索建议服务 内核                         | 接近完成，商用不开源                         |
+| 19 | [neptune][19]         | ea 前端服务                                   | 开发中                                |
 
 ## kumo search 服务项目
 
@@ -90,12 +91,15 @@
 * [a006-hala-vue](docs/half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面
 * [a007-hala-vue-ext](docs/half/a007-hala-vue-ext.md) - cache服务源码解读
 * [a008-hala-kv](docs/half/a008-hala-kv.md) - 单机kv服务完整实现
+* [a009-hala-dkv](docs/half/a009-hala-dkv.md) - 分布式kv服务
 
 # [搜索架构之旅](https://juejin.cn/user/42219472170896/columns)
 
-**本专题主要介绍搜索引擎的基础知识，以及随着搜索技术和搜索业务的发展，搜索架构的演进，升级和设计，以及背后的技术原理和实现。**
+**本专题主要介绍搜索引擎的基础知识，以及随着搜索技术和搜索业务的发展，搜索架构的演进，升级和设计，以及背后的技术原理和实现。
+**
 
 ## 走近AI：向量检索系列
+
 * [一 向量检索为何受到工业界和开发者青睐？](https://juejin.cn/post/7381372851121831974?searchId=20240619101012ED67E7AC3C349325CB2F)
 
 # 基础环境与CI/CD
@@ -173,6 +177,8 @@ centos7-openssl11-python-310-gcc-9.3:
 [17]: https://github.com/gottingen/carbin-template
 
 [18]: https://github.com/gottingen/carbin-recipes
+
+[19]: https://github.com/gottingen/neptune
 
 [31]: https://github.com/gottingen/sirius
 
