@@ -91,7 +91,8 @@
 * [a006-hala-vue](docs/half/a006-hala-vue.md) - 创建一个cache服务，并提供浏览器访问界面
 * [a007-hala-vue-ext](docs/half/a007-hala-vue-ext.md) - cache服务源码解读
 * [a008-hala-kv](docs/half/a008-hala-kv.md) - 单机kv服务完整实现
-* [a009-hala-dkv](docs/half/a009-hala-dkv.md) - 分布式kv服务
+* [a009-hala-dkv](docs/half/a009-hala-dkv.md) - 分布式kv服务-1
+* [a010-hala-dkv](docs/half/a010-hala-dkv.md) - 分布式kv服务-2 服务管理
 
 # [搜索架构之旅](https://juejin.cn/user/42219472170896/columns)
 
