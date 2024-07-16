@@ -93,6 +93,24 @@
 * [a008-hala-kv](docs/half/a008-hala-kv.md) - 单机kv服务完整实现
 * [a009-hala-dkv](docs/half/a009-hala-dkv.md) - 分布式kv服务-1
 * [a010-hala-dkv](docs/half/a010-hala-dkv.md) - 分布式kv服务-2 服务管理
+* [a011-melon](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon) - melon库使用示例
+  * [a012-melon-echo](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/echo) - melon echo
+  * [a013-melon-async](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/async) - melon async echo
+  * [a014-melon-backup](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/backup) 备用链接
+   * [a015-melon-cancel](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/cancel) 取消请求
+   * [a016-melon-cascade](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/cascade) cascade 服务
+   * [a017-melon-http](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/http) http服务
+   * [a018-melon-redis](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/redis) redis 服务
+   * [a019-melon-memcache](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/memcache) memcache 服务
+   * [a020-melon-restful](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/restful) restful 服务
+   * [a021-melon-parallel](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/parallel) parallel 请求
+   * [a022-melon-partition](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/partition) partition 分区请求
+   * [a023-melon-session](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/session) 私有变量携带
+   * [a024-melon-stream](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/stream) 流式请求
+   * [a025-melon-grpc](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/grpc) grpc请求
+   * [a026-melon-multi_threaded](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/multi_threaded) 多线程并发请求
+   * [a027-melon-select](https://github.com/gottingen/ea-half-an-hour/tree/master/melon-examples/halamelon/select) 选择最佳channel
+
 
 # [搜索架构之旅](https://juejin.cn/user/42219472170896/columns)
 
